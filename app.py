@@ -7,7 +7,7 @@ import streamlit as st
 from PIL import Image
 import tensorflow as tf
 import os
-import cv2
+#import cv2
 from mtcnn import MTCNN
 import numpy as np
 
