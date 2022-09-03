@@ -1,11 +1,11 @@
 #!pip install streamlit
-from keras_vggface.utils import preprocess_input
-from keras_vggface.vggface import VGGFace
+#from keras_vggface.utils import preprocess_input
+#from keras_vggface.vggface import VGGFace
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 from PIL import Image
-#import tensorflow as tf
+import tensorflow as tf
 import os
 import cv2
 from mtcnn import MTCNN
@@ -41,7 +41,7 @@ def extract_features(img_path,model,detector):
     face_array = face_array.astype('float32')
 
     expanded_img = np.expand_dims(face_array, axis=0)
-    preprocessed_img = preprocess_input(expanded_img)
+    preprocessed_img = tf.keras.layers.Input([224, 224, 3], dtype = tf.uint8)(expanded_img)
     result = model.predict(preprocessed_img).flatten()
     return result
 
