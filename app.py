@@ -1,6 +1,6 @@
 #!pip install streamlit
 #from keras_vggface.utils import preprocess_input
-#from keras_vggface.vggface import VGGFace
+from keras_vggface.vggface import VGGFace
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
