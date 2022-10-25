@@ -1,6 +1,6 @@
 <h1> vgg_face_bollywood_celebrity_lookalike</h1>
 
-<h2>In this project I created a streamlit app that takes picture of a person's face and the suggests which of the 100 bollywood celebrities he/she looks closest to. I used the weights from the vgg-16 model using transfer learning method. I trained more than 8,000 total pictures of those celebrities and store those matrices for those pictures.</h2> 
+In this project I created a streamlit app that takes picture of a person's face and the suggests which of the 100 bollywood celebrities he/she looks closest to. I used the weights from the vgg-16 model using transfer learning method. I trained more than 8,000 total pictures of those celebrities and store those matrices for those pictures. 
 
 
 <h1>The basic function of the app is -</h1>
