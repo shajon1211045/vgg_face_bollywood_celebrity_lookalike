@@ -3,15 +3,16 @@
 <h2>In this project I created a streamlit app that takes picture of a person's face and the suggests which of the 100 bollywood celebrities he/she looks closest to. I used the weights from the vgg-16 model using transfer learning method. I trained more than 8,000 total pictures of those celebrities and store those matrices for those pictures.</h2> 
 
 
-<h2>The basic function of the app is -</h2>
+<h1>The basic function of the app is -</h1>
 
-<h3>1.first convert the input picture into matrix form.</h3>
+1.first convert the input picture into matrix form.
 
-<h3>2.find the cosine distances between the input picture matrix and all the other matrix stored by the model.</h3>
+2.find the cosine distances between the input picture matrix and all the other matrix stored by the model.
 
-<h3>3.find which particular celebrity picture matrix has the closest distance with the input picture matrix.</h3>
+3.find which particular celebrity picture matrix has the closest distance with the input picture matrix.
 
-<h3>4.finally, display both the input picture and celebrity picture that has the minimum cosine distance with the input picture..</h3>
+4.finally, display both the input picture and celebrity picture that has the minimum cosine distance with the input picture.
+
 
 <h1>Some examples of the final app are given below</h1>
 
